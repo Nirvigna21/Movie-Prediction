@@ -18,4 +18,4 @@ Logic | Simple weighted formula (Mock ML)
 Deployment | Local Flask server
 
 
-
+If you like this project ⭐ star the repo!
