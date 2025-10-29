@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Success Prediction</title>
+  <style>
+    body { font-family: Arial; background: #222; color: white; text-align: center; margin-top: 40px; }
+    input { padding: 10px; margin: 10px; border-radius: 5px; border: none; width: 250px; }
+    button { padding: 10px 20px; border-radius: 6px; border: none; background: orange; color: white; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>🎬 Movie Success Prediction</h1>
+  <form action="/predict" method="post">
+    <input type="number" step="0.1" name="hero" placeholder="Hero Rating (1–10)" required><br>
+    <input type="number" step="0.1" name="director" placeholder="Director Rating (1–10)" required><br>
+    <input type="number" step="0.1" name="budget" placeholder="Budget (in crores)" required><br>
+    <input type="number" step="0.1" name="script" placeholder="Script Rating (1–10)" required><br>
+    <input type="number" step="0.1" name="marketing" placeholder="Marketing Rating (1–10)" required><br>
+    <button type="submit">Predict</button>
+  </form>
+
+  {% if prediction %}
+    <h2>{{ prediction }}</h2>
+  {% endif %}
+</body>
+</html>
