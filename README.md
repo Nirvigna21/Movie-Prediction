@@ -1,13 +1,13 @@
-# 🎬 Movie Success Prediction (Mini ML Web App)
 
-This is a simple Machine Learning–inspired project that predicts whether a movie will be a **Hit** or **Flop** based on key factors like:
-- Hero Rating  
-- Director Rating  
-- Budget  
-- Script Rating  
-- Marketing Rating  
+# 🎬 Movie Success Prediction App
 
-It uses a weighted formula to simulate prediction (no model training required), and Flask for the web interface.
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20App-green)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+![Stars](https://img.shields.io/github/stars/Nirvigna21/Movie-Prediction?style=social)
+
+A simple ML-inspired project that predicts whether a movie will be a **Hit 🎉** or **Flop 💔** based on ratings like hero, director, budget, etc.
+
 
 ## 🚀 Tech Stack
 | Component | Technology |
