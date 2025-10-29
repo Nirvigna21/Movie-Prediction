@@ -19,5 +19,4 @@ Deployment | Local Flask server
 ## 📸 Project Preview
 <img src="screenshot.png" width="450">
 
-
 If you like this project ⭐ star the repo!
