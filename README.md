@@ -17,6 +17,7 @@ Logic | Simple weighted formula (Mock ML)
 Deployment | Local Flask server
 
 ## 📸 Project Preview
-<img src="screenshot(72).png" width="450">
+<img src="screenshot.png" width="450">
+
 
 If you like this project ⭐ star the repo!
