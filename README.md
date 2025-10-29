@@ -8,7 +8,6 @@
 
 A simple ML-inspired project that predicts whether a movie will be a **Hit 🎉** or **Flop 💔** based on ratings like hero, director, budget, etc.
 
-
 ## 🚀 Tech Stack
 | Component | Technology |
 |---------|------------|
@@ -17,5 +16,7 @@ Backend | Python, Flask
 Logic | Simple weighted formula (Mock ML)
 Deployment | Local Flask server
 
+## 📸 Project Preview
+<img src="screenshot.png" width="450">
 
 If you like this project ⭐ star the repo!
